@@ -1,0 +1,26 @@
+{
+    "admin": {
+        "password": "scrypt:32768:8:1$k6ZVwx5boHb75zRa$1f23474afcd45c738c571277b44fced9ed6c24087e4089f7b775e66a9897fbd6bc95ac3fd3a302ebaefb4f7bd3d265e9351e8a2b0cdb6f7e435493ccda986b13",
+        "role": "admin"
+    },
+    "voter1": {
+        "password": "scrypt:32768:8:1$zQsvMKipn3imKxst$36f73ce87e9fc893de0603fd85617acc6794660dee95087a4f44420d508780f3d5bef171820d57b475432bb010416b8a11fd571546799b322280c5675b2992f6",
+        "role": "voter"
+    },
+    "voter2": {
+        "password": "scrypt:32768:8:1$o2iGdV06L4fhqKxU$552b4eff4ce049575ba1def7cefc713f93df800b0c61612292e941360e0c30f37ac5d63b8f7d9652acf7ab8f39e03cdb617b96c0f09ac24ea4d055cd96874d73",
+        "role": "voter"
+    },
+    "Yash Tripathi": {
+        "password": "scrypt:32768:8:1$OkLnixUHzpFjog4h$c7a57e86a840cc27a943190a67f45c9e955e07f6f15cd2a3ae99ebb79e0f00d60cf6db88bb51e478b1f6933056d63df712241b167f5f0a6262a39a05b90fb8c1",
+        "role": "voter"
+    },
+    "Rishabh tripathi": {
+        "password": "scrypt:32768:8:1$eLNChDY8hldeOYzo$69974dfa2780658cc0559e1df7f889e008d21c64c4240d2dcd915c30b53f2c99b6a72afcbd4d5219f0ba1dc912daad15a4b102558259207eb3f7eef985587300",
+        "role": "voter"
+    },
+    "Ansh": {
+        "password": "scrypt:32768:8:1$hA5Dk7RufJJaQJbm$1c49812581c145aa9f28d0bee40de073e7524f2ec1ff3c4267bd4ba87e6120a009edfbeec75c20c41349d4f383b0daf7662e631c8256ea9e93f3acde9501fdf2",
+        "role": "voter"
+    }
+}

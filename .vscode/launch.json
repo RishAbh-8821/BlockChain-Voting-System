@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python: Flask (My App)", // You can rename this
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "app.py", // <<< MAKE SURE THIS IS "app.py"
+                "FLASK_ENV": "development",
+                "FLASK_DEBUG": "1" // Set to "0" for production
+            },
+            "args": [
+                "run",
+                "--no-debugger", // Remove if you want Flask's debugger
+                "--no-reload"    // Remove if you want Flask's auto-reload
+            ],
+            "jinja": true,
+            "justMyCode": true,
+            // "cwd": "${workspaceFolder}" // Uncomment if you have issues with relative paths
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+/* General Body and Font Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A slightly more modern font */
+    background: linear-gradient(to right, #ece9e6, #ffffff); /* Subtle gradient background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Basic Content Area Styling */
+.content {
+    padding: 20px;
+}
+
+/* Navbar Enhancements */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.navbar-brand {
+    font-weight: 600; /* Make brand name bolder */
+    letter-spacing: 1px;
+}
+.nav-link {
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+.nav-link:hover {
+    color: #007bff !important; /* Highlight on hover (Bootstrap primary color) */
+}
+
+/* Card Enhancements (Used for Login, Register, Results, Vote, Admin Dashboard) */
+.card {
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+    overflow: hidden; /* Ensures inner content respects border-radius */
+}
+.card:hover {
+    transform: translateY(-5px); /* Lift card slightly on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+.card-title {
+    color: #007bff; /* Highlight card titles */
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Input and Button Enhancements */
+.form-control {
+    border-radius: 8px; /* Rounded input fields */
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08); /* Subtle inner shadow */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.form-control:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25); /* Bootstrap's focus ring */
+}
+
+.btn {
+    border-radius: 8px; /* Rounded buttons */
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Shadow for primary button */
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-1px); /* Slight lift on hover */
+}
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+}
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: translateY(-1px);
+}
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    box-shadow: 0 4px 8px rgba(108, 117, 125, 0.2);
+}
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+    transform: translateY(-1px);
+}
+
+/* Specific Jumbotron (Home Page Welcome) Enhancements */
+.jumbotron {
+    border-radius: 15px !important; /* More rounded jumbotron */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #e0f2f7, #c9e9f2) !important; /* Lighter, subtle blue gradient */
+    color: #004085; /* Darker text for contrast */
+}
+.jumbotron .display-4 {
+    color: #0056b3; /* Primary color for main heading */
+    font-weight: 700;
+}
+.jumbotron .lead {
+    color: #004085;
+}
+.jumbotron .btn {
+    margin: 0 10px;
+}
+
+/* List Group Items (Results Page) */
+.list-group-item {
+    border-left: 5px solid transparent; /* Space for a potential indicator */
+    transition: border-left-color 0.3s ease-in-out;
+}
+.list-group-item:hover {
+    border-left-color: #007bff; /* Highlight on hover */
+}
+.list-group-item span.badge {
+    min-width: 60px; /* Give badge a minimum width */
+    padding: 0.5em 0.8em;
+    font-size: 0.9em;
+}
+
+/* Accordion (Admin Dashboard) */
+.accordion-button {
+    font-weight: 600;
+    color: #333;
+}
+.accordion-button:not(.collapsed) {
+    color: #007bff;
+    background-color: #e7f5ff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+.accordion-item {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.accordion-item:last-of-type {
+    margin-bottom: 0;
+}
+.accordion-body pre {
+    background-color: #f8f9fa !important;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    padding: 15px;
+    white-space: pre-wrap; /* Ensures long lines wrap */
+    word-break: break-all; /* Breaks words if necessary */
+    font-size: 0.85em;
+    color: #495057;
+}
+
+/* Flash Messages */
+.alert {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.alert-success { background-color: #d4edda; border-color: #c3e6cb; color: #155724; }
+.alert-danger { background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; }
+.alert-warning { background-color: #fff3cd; border-color: #ffeeba; color: #856404; }
+.alert-info { background-color: #d1ecf1; border-color: #bee5eb; color: #0c5460; }
