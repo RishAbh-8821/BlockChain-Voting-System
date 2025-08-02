@@ -27,8 +27,6 @@ A secure, transparent, and tamper-proof voting system built using Python and Fla
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
     Blockchain-Voting-System/
     ├── app.py                  # Main Flask app (routes + logic)
     ├── blockchain.py           # Blockchain class & validation
