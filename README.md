@@ -28,18 +28,18 @@ A secure, transparent, and tamper-proof voting system built using Python and Fla
 ## 📁 Project Structure
 
 Blockchain-Voting-System/
-├── app.py                  # Main Flask app (routes + logic)
-├── blockchain.py           # Blockchain class & validation
-├── blockchain_data.json    # Stores blockchain (vote) data
-├── users.json              # Stores user credentials (hashed)
-├── templates/              # HTML templates (Flask)
-│   ├── login.html
-│   ├── vote.html
-│   └── result.html
-├── static/                 # CSS or JS files (optional)
-├── .flaskenv               # Flask environment config
-├── venv/                   # Python virtual environment
-└── README.md               # This file
+├── app.py # Main Flask app (routes + logic)
+├── blockchain.py # Blockchain class & validation
+├── blockchain_data.json # Stores blockchain (vote) data
+├── users.json # Stores user credentials (hashed)
+├── templates/ # HTML templates (Flask)
+│ ├── login.html
+│ ├── vote.html
+│ └── result.html
+├── static/ # CSS or JS files (optional)
+├── .flaskenv # Flask environment config
+├── venv/ # Python virtual environment
+└── README.md # This file
 
 ---
 
